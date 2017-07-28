@@ -2,12 +2,47 @@
 and to override CSS from Bootstrap.*/
 
 body { 
+
 	
 }
 
+.header_container {
+	padding-left: 0;
+	padding-right: 15%;
+}
+
+.navbar-header {
+	border: solid green 2px;
+	height: 90px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.navbar-header h1 {
+	width: 100%;
+	margin-left: 0;
+	border: solid black 2px;
+	font-size: 40px;
+}
+
+.navbar-right a {
+	font-size: 20px;
+}
+
+.navbar-right li {
+	padding-top: 15px;
+}
 
 .main_section {
-	border: solid 2px red;
+	background: #ffffff;
+	border: solid 2px red; /*to see what I'm doing*/
+	margin-bottom: 20px;
+}
+
+.connect_box {
+	background: #ffffff;
+	border: solid 2px orange; /*to see what I'm doing*/
+	padding-bottom: 20px;
 }
 
 .connect_box img {
@@ -19,6 +54,8 @@ body {
 }
 
 .footer {
+	bottom: 0;
+	width: 100%;
 	text-align: center;
 	height: 90px;
 	padding-top: 30px;
@@ -29,6 +66,6 @@ body {
 	border-top: 10px;
 	border-top-color: #4aaaa5;
 	border-top-style: solid;
-	margin-top: 1000px;
 
 }
+
