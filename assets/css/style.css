@@ -1,0 +1,34 @@
+/*General css for all three html files 
+and to override CSS from Bootstrap.*/
+
+body { 
+	
+}
+
+
+.main_section {
+	border: solid 2px red;
+}
+
+.connect_box img {
+	display: block;
+	float: left;
+	/*the images I have are square, so defining the height AND width ruins the image. Define only one of them*/
+	width: 20%;
+	margin-right: 5%;
+}
+
+.footer {
+	text-align: center;
+	height: 90px;
+	padding-top: 30px;
+	font-size: 16px;
+	color: black;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	background: #666666;
+	border-top: 10px;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	margin-top: 1000px;
+
+}
