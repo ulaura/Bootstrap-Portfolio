@@ -44,15 +44,18 @@ body {
 	background: #ffffff;
 	border: solid 2px orange; /*to see what I'm doing*/
 	padding-bottom: 20px;
+
 }
 
+/*
 .connect_box img {
 	display: block;
 	float: left;
-	/*the images I have are square, so defining the height AND width ruins the image. Define only one of them*/
+	/*the images I have are square, so defining the height AND width ruins the image. Define only one of them
 	width: 20%;
 	margin-right: 5%;
 }
+*/ 
 
 .footer {
 	bottom: 0;
@@ -70,3 +73,7 @@ body {
 
 }
 
+.fa-stack-overflow {
+
+	color: tomato;
+}
