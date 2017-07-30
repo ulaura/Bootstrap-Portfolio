@@ -1,29 +1,53 @@
 /*General css for all three html files 
 and to override CSS from Bootstrap.*/
 
-body { 
-
-	
+body {
+	/*background image found at www.subtlepatterns.com*/
+	background-image: url("../images/congruent_pentagon.png");
+	background-repeat: repeat;
 }
 
+.header {
+	/*border: red solid 5px;*/
+	background: #ffffff;
+	border-bottom: 2px;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+}
+
+
 .header_container {
-	border: solid yellow 2px;
+	/*border: solid yellow 2px;*/
 	padding-left: 0;
 	padding-right: 15%;
+	background: #ffffff;
+
+}
+
+.navbar {
+	background: #ffffff;
+	border-bottom: 2px;	
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
 }
 
 .navbar-header {
-	border: solid green 2px;
+	/*border: solid green 2px;*/
 	height: 90px;
 	padding-left: 15px;
 	padding-right: 15px;
+	background: #4aaaa5;
+
 }
 
 .navbar-header h1 {
 	width: 100%;
 	margin-left: 0;
-	border: solid black 2px;
+	/*border: solid black 2px;*/
 	font-size: 40px;
+	/*font-family:'Georgia', Times, Times New Roman, serif;*/
+	background: #4aaaa5;
+	color: #ffffff;
 }
 
 .navbar-right a {
@@ -36,13 +60,15 @@ body {
 
 .main_section {
 	background: #ffffff;
-	border: solid 2px red; /*to see what I'm doing*/
+	/*border: solid 2px red; /*to see what I'm doing*/
+	border: solid 2px #cccccc;
 	margin-bottom: 20px;
 }
 
 .connect_box {
 	background: #ffffff;
-	border: solid 2px orange; /*to see what I'm doing*/
+	/*border: solid 2px orange; /*to see what I'm doing*/
+	border: solid 2px #cccccc;
 	padding-bottom: 20px;
 
 }
@@ -73,7 +99,23 @@ body {
 
 }
 
-.fa-stack-overflow {
 
-	color: tomato;
+
+@media screen and (max-width: 768px) {
+	
+
+	.header_container {
+		padding-right: 0;
+
+
+	}
+
+	.header_container h1 {
+		text-align: center;
+	}
+
+	.header_container li {
+		padding-left: 20px;
+	}
+
 }
